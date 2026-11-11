@@ -7,3 +7,9 @@ node_modules/
 __pycache__/
 .claude/
 .cc-workbench/
+
+# Service runtime artifacts (SQLite DB, WAL/SHM, live JSONL input)
+runtime/
+*.db
+*.db-wal
+*.db-shm
